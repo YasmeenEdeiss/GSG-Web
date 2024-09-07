@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+</head>
+<body>
+        <!-- The header contains the page title -->
+    <header>
+        <h1>contact me</h1>
+    </header>
+        <!-- Section containing the contact form -->
+    <section>
+        <!-- Form to collect visitor's data -->
+        <form action="/submit" method="POST">
+         <!-- Using a table to structure the form elements -->             
+            <table border="0">
+                <tr>
+                <td>
+                    <br>
+                     <!-- Input field for the visitor's first name -->
+                    <div>
+                        <label for="Fname">First Name:</label>
+                        <input id="Fname" name="First Name" type="text" required />
+                    </div>
+                     <br>
+                    <!-- Input field for the visitor's last name -->
+                    <div>
+                        <label for="Lname">Last Name:</label>
+                        <input id="Lname" name="Last Name" type="text" required />
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <br>
+                    <!-- Input field for the visitor's email -->
+                    <div>
+                        <label for="email">Your Email:</label>
+                        <input id="email" name="Your Email" type="email" placeholder="Yuor@email.com" required/>
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                 <td>
+                    <br>
+                       <!-- Textarea for the visitor to enter their message -->
+                    <div>
+                        <sup>
+                        <label for="message">Your Message:</label><br>
+                        <textarea id="message" name="message" rows="10" cols="40" placeholder="Enter your message here"required></textarea>
+                        </sup> 
+                    </div>
+                </td>
+             </tr>
+                <tr>
+                <td colspan="2">
+                    <br>
+                      <!-- Submit button to send the form data -->
+                    <div>
+                        <input type="submit" value="Submit" />
+                    </div>
+              </td>
+              </tr>
+            </table>
+        </form> 
+    </section>
+</body>
+</html>
