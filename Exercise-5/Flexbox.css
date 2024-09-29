@@ -16,10 +16,10 @@ main{
     gap: 50px;
 }
 main .left{
-    flex-basis: 66%;
+    flex-basis: 90%;
 }
 main .right{
-    flex-basis: 33%;
+    flex-basis: 45%;
 }
 /* Left Side */
 main .left .nav{
@@ -37,18 +37,18 @@ main .left .nav nav ul{
 main .left .nav nav ul li{
     width: 150px;
     height: 30px;
-    background-color: #c5c5c5;
+    background-color: #b3b3b3;
 }
 main .left .nav nav ul li:first-child{
-    background-color: #666666;
+    background-color: #7a7a7a;
 }
 main .left .mainbox{
     width: 100%;
-    height: 50vh;
-    background-color: #666666;
-    margin-bottom: 30px;
+    height: 40vh;
+    background-color: #757474;
+    margin-bottom: 20px;
 }
-main .left .contenir-box{
+main .left .contanir-box{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -57,21 +57,21 @@ main .left .contenir-box{
     gap: 20px;
     row-gap: 50px;
 }
-main .left .contenir-box .box{
-    width: 18%;
+main .left .contanir-box .box{
+    width: 17%;
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: 15px;
 }
-main .left .contenir-box .box .image{
+main .left .contanir-box .box .image{
     width: 100%;
     height: 20vh;
-    background-color: #aaaaaa;
+    background-color: #aaa9a9;
 }
-main .left .contenir-box .box .text{
+main .left .contanir-box .box .text{
     width: 100%;
     height: 10px;
-    background-color: #c5c5c5;
+    background-color: #b4b3b3;
 }
 /* right Side */
 main .right .right-nav{
@@ -83,25 +83,26 @@ main .right .right-nav{
 main .right .right-nav div{
     width: 40px;
     height: 20px;
-    background-color: #b3b2b2;
+    background-color: #c7c3c3;
 }
 main .right .main{
     width: 100%;
-    height: 50vh;
-    background-color: #666666;
-    margin-bottom: 30px;
-}
-main .right .caption{
-    width: 100%;
-    height: 30px;
-    background-color: #b3b2b2;
+    height: 40vh;
+    background-color: #a8a6a6;
     margin-bottom: 20px;
+}
+main .right .line{
+    width: 100%;
+    height: 40px;
+    background-color: #919191;
+    margin-bottom: 25px;
 }
 main .right .content{
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 60px;
 }
+
 main .right .l-box{
     display: flex;
     column-gap: 5px;
@@ -115,20 +116,20 @@ main .right .l-box:nth-child(1)::after{
     height: 5px;
     background-color: #b4b4b4;
     position: absolute;
-    top: 200px;
+    top: 100px;
 }
-main .right .l-box .left-img{
+main .right .l-box .right-img{
     flex-basis: 30%;
     height: 100px;
     background-color: #b8b7b7;
 }
-main .right .l-box .left-text{
+main .right .l-box .right-text{
     flex-basis: 70%;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
-main .right .l-box .left-text .text{
+main .right .l-box .right-text .text{
     width: 100%;
     height: 13px;
     background-color: #bbb9b9;
@@ -136,19 +137,19 @@ main .right .l-box .left-text .text{
 main .right .l-box::nth-child(2){
     margin-top: 50px;
 }
-main .right .l-box .left-text .text:nth-child(6)  {
+main .right .l-box .right-text .text:nth-child(6)  {
     margin-left: -135px;
     width: 145%;
 }
-main .right .l-box .left-text .text:nth-child(7)  {
+main .right .l-box .right-text .text:nth-child(7)  {
     margin-left: -135px;
     width: 145%;
 }
   
   /* footer */
   .footer {
-    background-color: rgb(155, 153, 153);
-    margin-top: 50px;
-    width: 100px;
-    height: 30px;
+    background-color: rgb(175, 174, 174);
+    height: 30px; 
+    width: 100%;
+    margin-top: auto;
   }
